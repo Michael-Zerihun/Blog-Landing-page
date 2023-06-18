@@ -15,19 +15,17 @@ body {
     overflow: hidden;
 }
 .upcoming-event {
-    width: 388px;
+    width: 385px;
     height: 491px;
-    background: url('../images/v342_66.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    border-radius: 15px;
     opacity: 1;
+    background-color: #fff;
     position: absolute;
     top: 918px;
     left: 848px;
     overflow: hidden;
 }
-.background {
+/* .background {
     width: 385px;
     height: 491px;
     background: linear-gradient(rgba(107, 147, 249, 1), rgba(64, 9, 98, 1));
@@ -72,7 +70,7 @@ body {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     overflow: hidden;
-}
+} */
 .v350_130 {
     width: 116px;
     color: rgba(255, 255, 255, 1);
@@ -120,7 +118,7 @@ body {
     left: 5px;
     overflow: hidden;
 }
-.v348_87 {
+.third-card {
     width: 387px;
     height: 360px;
     background: url('../images/v348_87.png');
@@ -174,7 +172,7 @@ body {
     opacity: 1;
     text-align: center;
 }
-.v348_86 {
+.second-card {
     width: 387px;
     height: 360px;
     background: url('../images/v348_86.png');
@@ -228,7 +226,7 @@ body {
     opacity: 1;
     text-align: center;
 }
-.v348_85 {
+.main-card {
     width: 790px;
     height: 360px;
     background: url('../images/v348_85.png');
